@@ -28,6 +28,16 @@ public static class UniversalSerializer
         }
     }
 
+    public static async Task SerializeToJsonAsync(this object obj, string fileName)
+    {
+        await SerializeToJsonAsync(fileName, obj);
+    }
+
+    public static async Task SerializeToXmlAsync(this object obj, string fileName)
+    {
+        await SerializeToXmlAsync(fileName, obj);
+    }
+
     private static async Task SerializeToJsonAsync(string fileName, object obj)
     {
         await using var file = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.Write);
