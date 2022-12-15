@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo.TestConsole", "AttributeDemo.TestConsole\AttributeDemo.TestConsole.csproj", "{82F7E47A-F09B-4776-B81B-3C887FA141E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo.AttributeLib", "AttributeDemo.AttributeLib\AttributeDemo.AttributeLib.csproj", "{6E8D216B-B967-4F11-ABBD-2B3244D0DCA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F7E47A-F09B-4776-B81B-3C887FA141E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F7E47A-F09B-4776-B81B-3C887FA141E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F7E47A-F09B-4776-B81B-3C887FA141E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F7E47A-F09B-4776-B81B-3C887FA141E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8D216B-B967-4F11-ABBD-2B3244D0DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8D216B-B967-4F11-ABBD-2B3244D0DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8D216B-B967-4F11-ABBD-2B3244D0DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8D216B-B967-4F11-ABBD-2B3244D0DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
