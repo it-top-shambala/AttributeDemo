@@ -7,7 +7,7 @@ namespace AttributeDemo.AttributeLib;
 
 public static class UniversalSerializer
 {
-    public static async Task Serialize(object obj)
+    public static async Task SerializeAsync(object obj)
     {
         var objType = obj.GetType();
         var attributes = objType.GetCustomAttributes();
